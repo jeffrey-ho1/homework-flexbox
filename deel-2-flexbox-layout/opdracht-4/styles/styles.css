@@ -1,1 +1,55 @@
 /*Schrijf hier jouw CSS*/
+
+
+/*outside container*/
+.outside-body-container{
+    display: flex;
+    min-height: 100vh;
+
+}
+/*container voor nav*/
+.outer-col-1 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 250px;
+
+}
+
+
+/*container voor div header*/
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 1250px;
+}
+
+/*container voor div aside*/
+   .inner-row{
+       display: flex;
+       flex-direction: row;
+       flex-grow: 0;
+       flex-shrink: 0;
+       flex-basis: 500px;
+
+
+}
+
+            /*container voor div article*/
+            .article {
+                display: flex;
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: 627px;
+            }
+            /*container voor div footer*/
+            .inner-col {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: 1000px;
+            }
